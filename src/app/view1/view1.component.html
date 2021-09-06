@@ -1,0 +1,21 @@
+<igx-grid [data]="northwindCategories" [autoGenerate]="false" width="1437px" height="768px" class="grid">
+  <igx-column field="categoryID" header="categoryID" title="categoryID" dataType="number" class="igx-column"></igx-column>
+  <igx-column field="description" header="description" title="description" dataType="string" class="igx-column"></igx-column>
+  <igx-column field="name" header="name" title="name" dataType="string" class="igx-column"></igx-column>
+</igx-grid>
+<igx-navbar class="navigation-bar">
+  <button igxButton="icon" type="icon" [disabled]="false" igxNavbarAction class="icon-button">
+    <igx-icon>menu</igx-icon>
+  </button>
+  <div igxNavbarTitle>Screen Title</div>
+  <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+    <igx-icon>search</igx-icon>
+  </button>
+  <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+    <igx-icon>favorite</igx-icon>
+  </button>
+  <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
+    <igx-icon>more_vert</igx-icon>
+  </button>
+</igx-navbar>
+<h4 class="title">Content for view 1</h4>

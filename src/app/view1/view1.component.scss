@@ -1,0 +1,36 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+  top: 4px;
+  left: 0;
+  position: fixed;
+  width: 1437px;
+  height: 768px;
+  flex: 0 0 auto;
+  z-index: 1;
+  min-width: 50px;
+  min-height: 50px;
+}
+.igx-column {
+  width: 500px;
+  height: 200px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.navigation-bar {
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.icon-button {
+  flex: 0 0 auto;
+}
+.title {
+  width: max-content;
+  height: max-content;
+  flex: 0 0 auto;
+}

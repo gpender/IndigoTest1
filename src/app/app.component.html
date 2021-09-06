@@ -1,0 +1,39 @@
+<igx-navbar class="navigation-bar">
+  <button igxButton="icon" type="icon" [disabled]="false" igxNavbarAction class="icon-button">
+    <igx-icon>menu</igx-icon>
+  </button>
+  <div igxNavbarTitle>App name</div>
+  <button igxButton="icon" igxButtonBackground="transparent" type="icon" [disabled]="false" class="icon-button">
+    <igx-icon>help_outline</igx-icon>
+  </button>
+</igx-navbar>
+<div class="row-layout row">
+  <igx-grid [data]="voucherBatchesjsonTable1" [autoGenerate]="false" width="1439px" height="817px" class="grid">
+    <igx-column field="VoucherResellerId" header="VoucherResellerId" title="VoucherResellerId" dataType="number" class="igx-column"></igx-column>
+    <igx-column field="column_1" header="column_1" title="column_1" dataType="number" class="igx-column"></igx-column>
+    <igx-column field="Reseller" header="Reseller" title="Reseller" dataType="string" class="igx-column"></igx-column>
+    <igx-column field="Company" header="Company" title="Company" dataType="string" class="igx-column"></igx-column>
+    <igx-column field="VoucherBatchId" header="VoucherBatchId" title="VoucherBatchId" dataType="number" class="igx-column"></igx-column>
+    <igx-column field="Created" header="Created" title="Created" dataType="date" class="igx-column"></igx-column>
+    <igx-column field="CustomerBatchName" header="CustomerBatchName" title="CustomerBatchName" dataType="string" class="igx-column"></igx-column>
+    <igx-column field="ExpiryDate" header="ExpiryDate" title="ExpiryDate" dataType="date" class="igx-column"></igx-column>
+    <igx-column field="BatchSize" header="BatchSize" title="BatchSize" dataType="number" class="igx-column"></igx-column>
+    <igx-column field="VoucherTypeId" header="VoucherTypeId" title="VoucherTypeId" dataType="number" class="igx-column"></igx-column>
+    <igx-column field="VoucherTypeDesc" header="VoucherTypeDesc" title="VoucherTypeDesc" dataType="string" class="igx-column"></igx-column>
+    <igx-column field="VoucherValue" header="VoucherValue" title="VoucherValue" dataType="number" class="igx-column"></igx-column>
+    <igx-column field="VoucherUsageCount" header="VoucherUsageCount" title="VoucherUsageCount" dataType="number" class="igx-column"></igx-column>
+    <igx-column field="VoucherBatchStateId" header="VoucherBatchStateId" title="VoucherBatchStateId" dataType="number" class="igx-column"></igx-column>
+    <igx-column field="VoucherBatchStateDesc" header="VoucherBatchStateDesc" title="VoucherBatchStateDesc" dataType="string" class="igx-column"></igx-column>
+    <igx-column field="GenerateUniqueCodes" header="GenerateUniqueCodes" title="GenerateUniqueCodes" dataType="boolean" class="igx-column"></igx-column>
+    <igx-column field="UniqueCodeLength" header="UniqueCodeLength" title="UniqueCodeLength" dataType="number" class="igx-column"></igx-column>
+    <igx-column field="DummyAction" header="DummyAction" title="DummyAction" dataType="number" class="igx-column"></igx-column>
+    <igx-column field="column_2" header="column_2" title="column_2" dataType="number" class="igx-column"></igx-column>
+    <igx-column field="CanEdit" header="CanEdit" title="CanEdit" dataType="boolean" class="igx-column"></igx-column>
+    <igx-column field="CanCancel" header="CanCancel" title="CanCancel" dataType="boolean" class="igx-column"></igx-column>
+    <igx-column field="CanPublish" header="CanPublish" title="CanPublish" dataType="boolean" class="igx-column"></igx-column>
+    <igx-column field="CanSuspend" header="CanSuspend" title="CanSuspend" dataType="boolean" class="igx-column"></igx-column>
+    <igx-column field="CanResume" header="CanResume" title="CanResume" dataType="boolean" class="igx-column"></igx-column>
+    <igx-column field="CanDelete" header="CanDelete" title="CanDelete" dataType="boolean" class="igx-column"></igx-column>
+    <igx-column field="CanExport" header="CanExport" title="CanExport" dataType="boolean" class="igx-column"></igx-column>
+  </igx-grid>
+</div>
